@@ -20,6 +20,10 @@
 -->
 ## Release Notes for AEMM Android ##
 
+### 7.0.0 (Mar 15, 2018)
+#### Features
+* Includes AEM Mobile .aar version 2018.3.3
+
 ### 6.0.12 (May 22, 2017)
 #### Features
 * Includes AEM Mobile .aar version 2017.5.22
@@ -89,7 +93,7 @@
 * CB-10443 Fix `this.root` null reference
 * CB-10421 Fixes exception when calling run script with `--help` option
 * updated `.gitignore`
-* CB-10406 Fixes an exception, thrown when building using Ant. 
+* CB-10406 Fixes an exception, thrown when building using Ant.
 * CB-10157 Uninstall app from device/emulator only when signed apk is already installed
 
 ### 5.1.0 (Jan 19, 2016)
@@ -99,7 +103,7 @@
 * Update theme to `Theme.DeviceDefault.NoActionBar`
 * CB-10014: Set gradle `applicationId` to `package name`.
 * CB-9949: Fixing menu button event not fired in **Android**
-* CB-9479: Fixing the conditionals again, we should 
+* CB-9479: Fixing the conditionals again, we should
 * CB-8917: New Plugin API for passing results on resume after Activity destruction
 * CB-9971 Suppress `gradlew _JAVA_OPTIONS` output during build
 * CB-9836 Add `.gitattributes` to prevent `CRLF` line endings in repos
@@ -116,7 +120,7 @@
 * Adds licence header to Adb to pass rat audit
 * CB-9835 Downgrade `properties-parser` to prevent failures in Node < 4.x
 * CB-9782 Implements PlatformApi contract for Android platform.
-* CB-9826 Fixed `test-build` script on windows. 
+* CB-9826 Fixed `test-build` script on windows.
 * Refactor of the Cordova Plugin/Permissions API
 * Manually updating version to 5.0.0-dev for engine tags
 * Bump up to API level 23
@@ -131,7 +135,7 @@
 * CB-9172 Improved emulator deploy stability. This closes #188.
 * CB-9404 Fixed an exception when path contained -debug or -release
 * CB-8320 Setting up gradle so we can use CordovaLib as a standard Android Library
-* CB-9185 Fixed an issue when unsigned apks couldn't be found. 
+* CB-9185 Fixed an issue when unsigned apks couldn't be found.
 * CB-9397 Fixes minor issues with `cordova requirements android`
 * CB-9389 Fixes build/check_reqs hang
 
@@ -198,7 +202,7 @@
 
 * Removed Intent Functionality from Preferences - Preferences can no longer be set by intents
 
-### Release 4.0.1 (April 2015) ### 
+### Release 4.0.1 (April 2015) ###
 
 * Bug fixed where platform failed to install on a version downgrade
 
@@ -532,4 +536,3 @@ http://cordova.apache.org/announcements/2014/08/04/android-351.html
 * [CB-4198] bin/create should handle spaces in activity better.
 * [CB-4096] Implemented new unified whitelist for android
 * [CB-3384] Fix thread assertion when plugins remap URIs
-
