@@ -20,16 +20,9 @@
 -->
 ## Release Notes for AEMM Android ##
 
-<<<<<<< HEAD
-### 6.0.13 (June 15, 2017)
-#### Features
-* Includes AEM Mobile .aar version 2016.6.15
-* Updates play-services-gcm to version 9.0.2
-=======
 ### 7.0.0 (Mar 15, 2018)
 #### Features
 * Includes AEM Mobile .aar version 2018.3.3
->>>>>>> 7.0.0-tmp
 
 ### 6.0.12 (May 22, 2017)
 #### Features
