@@ -24,6 +24,11 @@
 #### Features
 * Includes AEM Mobile .aar version 2018.3.3
 
+### 6.0.13 (June 15, 2017)
+#### Features
+* Includes AEM Mobile .aar version 2016.6.15
+* Updates play-services-gcm to version 9.0.2
+
 ### 6.0.12 (May 22, 2017)
 #### Features
 * Includes AEM Mobile .aar version 2017.5.22

@@ -46,13 +46,13 @@ dependencies {
 // PLUGIN GRADLE EXTENSIONS END
 
 android {
-	compileSdkVersion 23
-	buildToolsVersion "23.0.2"
+	compileSdkVersion 27
+	buildToolsVersion "27.0.1"
 
 	defaultConfig {
 		applicationId "com.adobe.dps.viewer"
 		minSdkVersion 19
-		targetSdkVersion 23
+		targetSdkVersion 27
 		versionName "0.1.0"
 		versionCode 1
 		resValue "bool", "isDevPreview", "true"
