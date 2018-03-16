@@ -25,7 +25,7 @@ buildscript {
 		}
 	}
 	dependencies {
-		classpath 'com.android.tools.build:gradle:2.0.0'
+		classpath 'com.android.tools.build:gradle:3.0.1'
 	}
 }
 
@@ -65,6 +65,11 @@ android {
 		versionCode 1
 		resValue "bool", "isDevPreview", "true"
 
+		javaCompileOptions {
+			annotationProcessorOptions {
+				includeCompileClasspath false
+			}
+		}
 		proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
 	}
 
@@ -88,10 +93,12 @@ android {
 	buildTypes {
 		debug {
 			minifyEnabled true
+			useProguard true
 		}
 
 		release {
 			minifyEnabled true
+			useProguard true
 		}
 	}
 }
