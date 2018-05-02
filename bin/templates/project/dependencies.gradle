@@ -55,7 +55,7 @@ dependencies {
 	compile 'com.adobe.creativesdk.foundation:auth:0.9.978'
 
 	// https://github.com/Adobe-Marketing-Cloud/mobile-services
-	compile (name:'adobeMobileLibrary-4.13.3', ext:'jar')
+	compile (name:'adobeMobileLibrary-4.14.0', ext:'jar')
 
 	compile (name:'CordovaLib-release', ext:'aar')
 
