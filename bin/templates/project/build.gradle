@@ -65,11 +65,6 @@ android {
 		versionCode 1
 		resValue "bool", "isDevPreview", "true"
 
-		//javaCompileOptions {
-		//	annotationProcessorOptions {
-		//		includeCompileClasspath false
-		//	}
-		}
 		proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
 	}
 
