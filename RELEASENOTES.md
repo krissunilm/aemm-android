@@ -22,7 +22,7 @@
 
 ### 7.1.0 (May 25, 2018)
 #### Features
-* Includes AEM Mobile .aar version 2018.5
+* Includes AEM Mobile .aar version 2018.6
 
 ### 6.0.13 (June 15, 2017)
 #### Features
